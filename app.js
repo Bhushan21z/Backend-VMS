@@ -5,7 +5,7 @@ app.use(express.json());
 const cors = require("cors");
 app.use(cors());
 
-const mongoUrl = "mongodb+srv://saber:SABERkj90@cluster0.ciwj8cy.mongodb.net/?retryWrites=true&w=majority"
+const mongoUrl = "mongodb+srv://wanjaribl:wanjaribl@cluster0.td50eqz.mongodb.net/vendor?retryWrites=true&w=majority"
 
 mongoose.connect(mongoUrl, {
     useNewUrlParser:true
